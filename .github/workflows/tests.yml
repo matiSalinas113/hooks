@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  # El workflow solo necesita leer el contenido del repositorio.
   contents: read
 
 jobs:
